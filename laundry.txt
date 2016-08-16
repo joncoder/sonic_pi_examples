@@ -24,15 +24,9 @@ def treat_stain()
   end
 end
 
-5.times do
+10.times do
   wear(1)
   treat_stain()
   wash(60)
   dry(:ambi_choir)
 end
-
-# 2.times do
-#   wear(0.5)
-#   wash(70)
-#   dry(:elec_blip)
-# end
